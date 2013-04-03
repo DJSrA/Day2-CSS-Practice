@@ -1,0 +1,149 @@
+.wrapper {
+	background: #5d5d5d;
+	padding: 15px 20px;
+}
+
+.buttonbar {
+	margin-left: 200px;
+}
+
+.header {
+	color: white;
+	margin-bottom: 0px;
+	text-shadow: 0px 1px 1px rgb(31, 31, 31);
+	float: left;
+	margin-right: 80px;
+	width: 200px;
+	position: fi
+	}
+
+.button {
+	width: 100px;
+	border: 1px solid rgb(48, 48, 48);
+	background: rgb(105, 105, 105);
+	color: white;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	border-radius: 5px;
+	padding: 12px 25px;
+	box-shadow: inset 0px 1px 0px rgb(155, 155, 155);
+	text-shadow: 0px 1px 1px rgb(31, 31, 31);
+	margin-bottom: 10px;
+	float: left;
+}
+
+#secondbuttons {
+	top: 60px;
+}
+.button2 {
+	z-index: 1;
+	width: 100px;
+	border: 1px solid rgb(48, 48, 48);
+	background: rgb(105, 105, 105);
+	color: white;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	border-radius: 5px;
+	padding: 12px 25px;
+	box-shadow: inset 0px 1px 0px rgb(155, 155, 155);
+	text-shadow: 0px 1px 1px rgb(31, 31, 31);
+	margin-bottom: -51px;
+	margin-top: 61px;
+	position: relative;
+	margin-left: 170px;
+}
+.bar {
+	width: 200px;
+	float: left;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-right: 80px;
+}
+
+.bar2 {
+	width: 200px;
+	float: left;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-right: 80px;
+	position: absolute;
+	margin-left: 620px;
+}
+
+.bar3 {
+	width: 200px;
+	float: right;
+	font-family: Helvetica, Arial, sans-serif;
+	float: right;
+	position: relative;
+}
+
+.how {
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 0px rgb(238, 238, 232), 0px 1px 1px rgb(83, 80, 80);
+	border: 1px solid rgb(82, 82, 64);
+	background: linear-gradient(to bottom, #feec92 0%,#f0c402 59%); /* W3C */
+	color: white;
+	text-align: center;
+	float: right;
+}
+
+.body {
+	color: white;
+	text-shadow: 0px 1px 1px rgb(31, 31, 31);
+	margin-top: 20px;
+
+}
+
+.yourname {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+.email {
+	width: 100px;
+	border: 1px solid rgb(48, 48, 48);
+	background: rgb(105, 105, 105);
+	color: white;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	border-radius: 5px;
+	padding: 12px 25px;
+	box-shadow: inset 0px 1px 0px rgb(155, 155, 155);
+	text-shadow: 0px 1px 1px rgb(31, 31, 31);
+	float: left;
+}
+
+.body h2 {
+		font-size: 13px;
+	font-family: font-family: Helvetica, Arial, sans-serif;
+	text-shadow: 0px 1px 1px rgb(40, 40, 40);
+	padding-top: 3px;
+	font-weight: lighter;
+}
+/* TOOLS */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
